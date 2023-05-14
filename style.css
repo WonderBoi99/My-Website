@@ -1,0 +1,8 @@
+body{
+    background: rgb(94, 94, 94);
+    /* background-image: url("Images/jellyFish.jpeg"); */
+}
+
+.selfie{
+    border-radius: 50%;
+}
