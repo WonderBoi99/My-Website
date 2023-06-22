@@ -109,4 +109,14 @@
     align-items: center;
 }
 
+.header{
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+}
+
+.subTitle{
+    font-size: 4rem;
+    font-weight: bold;
+}
 
