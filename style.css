@@ -68,8 +68,45 @@
     text-align: left;
 }
 
-.linkText{
-    font-size: 1rem;
-    font-weight: lighter;
-    text-align: left;
+.thirdLayer{
+    background-color: #64CCC5;
 }
+
+.skillsText{
+    font-size: 5rem;
+}
+
+.skillGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.skillPhoto{
+    width: 100px;
+}
+
+.imageBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.image{
+    width: 140px;
+    height: 140px;
+    position: relative;
+    border-radius: 95px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
