@@ -5,6 +5,10 @@
     background-color: #001C30;
 }
 
+.secondLayer{
+    background-color: #176B87;
+}
+
 .title{
     font-size: 5.8rem;
     text-align: justify;
@@ -22,7 +26,16 @@
     text-align: justify;
 }
 
-
 .selfie{
     border-radius: 50%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.first{
+    grid-row: span 2;
 }
