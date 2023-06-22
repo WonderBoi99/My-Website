@@ -6,7 +6,20 @@
 }
 
 .title{
-    font-size: 5rem;
+    font-size: 5.8rem;
+    text-align: justify;
+}
+
+.subText{
+    font-size: 2rem;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.bodyText{
+    font-size: 1.8rem;
+    font-weight: lighter;
+    text-align: justify;
 }
 
 
