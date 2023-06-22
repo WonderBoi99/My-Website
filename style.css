@@ -1,5 +1,12 @@
+.whiteText{
+    color: white;
+}
 .firstLayer{
     background-color: #001C30;
+}
+
+.title{
+    font-size: 5rem;
 }
 
 
