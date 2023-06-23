@@ -88,17 +88,17 @@
     max-height: fit-content;
 }
 
-.thirdLayer{
+.third-layer{
     background-color: #64CCC5;
 }
 
-.skillsText{
+.skills-text{
     font-size: 2rem;
     font-weight: light;
     color: #fff;
 }
 
-.skillGrid{
+.skills-grid{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-content: center;
@@ -108,12 +108,12 @@
     padding: 1rem;
 }
 
-.skillPhoto{
+.skill-photo{
     width: 70px;
 }
 
 
-.imageBox{
+.image-box{
     display: flex;
     flex-direction: column;
     align-items: center;
