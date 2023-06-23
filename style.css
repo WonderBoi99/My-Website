@@ -1,9 +1,6 @@
 * {
     color: #fff;
 }
-.whiteText{
-    color: white;
-}
 
 .first-layer {
     background-color: #001C30;
@@ -112,7 +109,6 @@
     width: 70px;
 }
 
-
 .image-box{
     display: flex;
     flex-direction: column;
@@ -130,6 +126,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.fourth-layer{
+    background-color: #DAFFFB;
 }
 
 .footer-text{
@@ -202,6 +202,3 @@
    }
 }
 
-.fourthLayer{
-    background-color: #DAFFFB;
-}
