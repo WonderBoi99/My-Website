@@ -33,6 +33,7 @@
     place-items: center;
 }
 
+
 .first{
     padding: 2rem;
     grid-row: span 2;
@@ -73,12 +74,14 @@
 }
 
 .skillsText{
-    font-size: 5rem;
+    font-size: 2rem;
+    font-weight: light;
+    color: #fff;
 }
 
 .skillGrid{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -87,8 +90,9 @@
 }
 
 .skillPhoto{
-    width: 100px;
+    width: 70px;
 }
+
 
 .imageBox{
     display: flex;
@@ -99,10 +103,10 @@
 }
 
 .image{
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
     position: relative;
-    border-radius: 95px;
+    border-radius: 50%;
     background-color: #fff;
     display: flex;
     justify-content: center;
@@ -120,3 +124,76 @@
     font-weight: bold;
 }
 
+.footer-text{
+    font-size: 1.5rem;
+    font-weight: light;
+    color: black;
+}
+
+@media (max-width: 990px){
+    .skillGrid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 2rem 50px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .title{
+        font-size: 5.8rem;
+        text-align: left;
+    }
+    
+    .subText{
+        font-size: 2rem;
+        font-weight: lighter;
+        text-align: left;
+    }
+    
+    .bodyText{
+        font-size: 1.8rem;
+        font-weight: lighter;
+        text-align: left;
+    }
+   .selfie-image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+}
+@media (max-width: 650px){
+    .skillGrid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .title{
+        font-size: 5.8rem;
+        text-align: left;
+    }
+    
+    .subText{
+        font-size: 2rem;
+        font-weight: lighter;
+        text-align: left;
+    }
+    
+    .bodyText{
+        font-size: 1.8rem;
+        font-weight: lighter;
+        text-align: left;
+    }
+    .selfie-image{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+   }
+}
+
+.fourthLayer{
+    background-color: #DAFFFB;
+}
