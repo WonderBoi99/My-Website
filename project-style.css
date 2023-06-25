@@ -2,6 +2,10 @@
 .main-timeline-2 {
     position: relative;
   }
+
+  .project-text {
+    color: black;
+  }
   
   /* The actual timeline (the vertical ruler) */
   .main-timeline-2::after {
