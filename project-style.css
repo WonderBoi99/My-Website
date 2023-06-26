@@ -33,28 +33,6 @@
       grid-template-columns: 1fr;
       gap: 50px;
     }
-
-    label {
-      display: initial;
-    }
-    
-    .nav-bar {
-      position: absolute;
-      top: 10%;
-      left: 0;
-      right: 0;
-      background: lightblue;
-      z-index: 1;
-      display: none;
-    }
-
-    .nav-bar ul li {
-      width: 100%;
-    }
-
-    #menu-bar:checked ~ .nav-bar {
-      display: initial;
-    }
   }
   
   
