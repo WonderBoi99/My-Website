@@ -14,13 +14,47 @@
     justify-content: center;
   }
 
+  #menu-bar {
+    display: none;
+  }
+
+  label {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 1.75rem;
+    cursor: pointer;
+    display: none;
+    margin-left: 50px;
+  }
+
   @media (max-width: 990px){
     .main-grid {
       display: grid;
       grid-template-columns: 1fr;
       gap: 50px;
     }
+
+    label {
+      display: initial;
+    }
     
+    .nav-bar {
+      position: absolute;
+      top: 10%;
+      left: 0;
+      right: 0;
+      background: lightblue;
+      z-index: 1;
+      display: none;
+    }
+
+    .nav-bar ul li {
+      width: 100%;
+    }
+
+    #menu-bar:checked ~ .nav-bar {
+      display: initial;
+    }
   }
   
   
