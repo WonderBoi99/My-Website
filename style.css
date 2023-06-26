@@ -157,6 +157,7 @@ label {
         grid-template-columns: repeat(3, 1fr);
         padding: 2rem 50px;
     }
+
     .education-grid{
         display: grid;
         grid-template-columns: 1fr;
@@ -204,7 +205,7 @@ label {
     top: 10%;
     left: 0;
     right: 0;
-    background: lightblue;
+    background: #001C30;
     z-index: 1;
     display: none;
   }
