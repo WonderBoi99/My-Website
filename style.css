@@ -151,11 +151,6 @@ label {
     color: black;
 }
 
-input[type="text"], 
-input[type="email"] {
-    color: black;
-  }
-
 @media (max-width: 990px){
     .skills-grid{
         display: grid;
