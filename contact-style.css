@@ -7,6 +7,14 @@
     justify-content: center;
 }
 
+input[type="text"], 
+input[type="email"] {
+    color: black;
+  }
+textarea {
+    color: black;
+}
+
 form {
     background: #64CCC5;
     display: flex;
@@ -29,4 +37,18 @@ form input, form textarea {
     padding: 20px;  
     outline: none;
     background: #DAFFFB;
+}
+
+form button {
+    padding: 15px;
+    background: lightcoral;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 30px;
+
 }
