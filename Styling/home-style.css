@@ -9,7 +9,7 @@
 .nav-text {
     color: #fff;
     font-weight: lighter;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
 }
 
 #menu-bar {
@@ -30,19 +30,19 @@ label {
 }
 
 .important-text {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: lighter;
     text-align: center;
 }
 
 .sub-title {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: lighter;
     text-align: left;
 }
 
 .body-text {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-weight: lighter;
     text-align: justify;
 }
@@ -172,24 +172,7 @@ label {
     .third-item {
         padding-left: 10%;
     }
-
-    .important-text{
-        font-size: 5.8rem;
-        text-align: left;
-        text-align: center;
-    }
     
-    .sub-title{
-        font-size: 2rem;
-        font-weight: lighter;
-        text-align: left;
-    }
-    
-    .body-text{
-        font-size: 1rem;
-        font-weight: lighter;
-        text-align: left;
-    }
    .selfie-image{
         display: flex;
         flex-direction: column;
