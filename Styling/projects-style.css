@@ -27,6 +27,11 @@
     margin-left: 50px;
   }
 
+  .projects-container{
+    padding-bottom: 30px;
+  }
+
+
   @media (max-width: 990px){
     .main-grid {
       display: grid;
