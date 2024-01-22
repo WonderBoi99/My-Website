@@ -73,6 +73,12 @@ label {
     text-align: left;
 }
 
+.program-major {
+    font-size: 1.5rem;
+    font-weight: light;
+    text-align: left;
+}
+
 .education-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
